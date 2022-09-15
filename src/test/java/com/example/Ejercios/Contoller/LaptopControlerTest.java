@@ -33,7 +33,7 @@ class LaptopControlerTest {
         restTemplateBuilder = restTemplateBuilder.rootUri("http://localhost:" + port);
         testRestTemplate = new TestRestTemplate(restTemplateBuilder);
     }
-
+    @Disable
     @DisplayName("Comprobar que ingresamos al controlador")
     @Test
     void helloLaptop() {
